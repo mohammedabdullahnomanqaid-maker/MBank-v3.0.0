@@ -12,6 +12,37 @@
 ## <a id="overview"></a>Overview
 MBank (Beta Version) is a comprehensive, standalone file-based banking simulation application developed to translate core programming and logical foundations into a working software solution. Built over an intensive 10-day development cycle, the project serves as a foundational step in practical software engineering—focusing on manual data handling, business logic implementation, and financial transaction processing without relying on external database management systems.
 ---
+
+## 📸 Screenshots
+
+<details>
+<summary><strong>View Screenshots</strong></summary>
+
+<br>
+
+### 🔐 Login
+
+<img src="Screenshots/Login.png" alt="Login" width="800">
+
+### 📊 Dashboard
+
+<img src="Screenshots/Dashboard.png" alt="Dashboard" width="800">
+
+### 👥 Manage People
+
+<img src="Screenshots/Manage-People.png" alt="Manage People" width="800">
+
+### 💱 Currency Exchange
+
+<img src="Screenshots/CurrencyExchange.png" alt="Currency Exchange" width="800">
+
+### 🏦 Vault
+
+<img src="Screenshots/Vault.png" alt="Vault" width="800">
+
+</details>
+
+---
 ## <a id="key-features"></a>Key Features
 ### 💱 Currency Calc
 - **International Conversion:** Smart calculation engine providing real-time currency conversion capabilities supporting 56 countries with precision.
