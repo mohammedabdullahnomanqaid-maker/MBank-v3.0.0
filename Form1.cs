@@ -88,6 +88,24 @@ namespace Project_Bank_C
             string[] data;
             string line;
             string[] fullName;
+
+        
+            if (!File.Exists(FileName))
+            {
+               
+                if (mtbPassword.Text == "1234" && mtbUserName.Text == "admin")
+                {
+                    MessageBox.Show("it will switch you to add new user be sure to give it all permission -1", "switch", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    Form frm = new FrmManageUser();
+                    frm.ShowDialog();
+                    return;
+                }
+                MessageBox.Show("Default \n Username=admin\n Password=1234", "Default", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                return;
+            }
+
             StreamReader reader = new StreamReader(FileName);
             while ((line = reader.ReadLine()) != null)
             {

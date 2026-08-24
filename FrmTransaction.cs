@@ -46,15 +46,19 @@ namespace Project_Bank_C
 
         void FillListView()
         {
-            string[] data;
-            string line;
-            StreamReader reader = new StreamReader(FileName);
-            while ((line = reader.ReadLine()) != null)
+            if(File.Exists(FileName))
             {
-                data = line.Split('#');
-                FillItem(data);
+                string[] data;
+                string line;
+                StreamReader reader = new StreamReader(FileName);
+                while ((line = reader.ReadLine()) != null)
+                {
+                    data = line.Split('#');
+                    FillItem(data);
+                }
+                reader.Close();
             }
-            reader.Close();
+         
         }
 
         string Withdraw(decimal AccountBalance)
@@ -647,23 +651,31 @@ namespace Project_Bank_C
 
         void UploadListViewOfTransferLog()
         {
-            string line;
-            string[] data;
-            StreamReader reader = new StreamReader(FileTransferLog, true);
-            while ((line = reader.ReadLine()) != null)
+           
+            if(File.Exists(FileTransferLog))
             {
-                data = line.Split('#');
-                FillTransferLogForm(data);
+                string line;
+                string[] data;
+                StreamReader reader = new StreamReader(FileTransferLog, true);
+                while ((line = reader.ReadLine()) != null)
+                {
+                    data = line.Split('#');
+                    FillTransferLogForm(data);
+                }
+                reader.Close();
             }
-            reader.Close();
         }
 
         decimal GetTotalBalanceFromFile()
         {
-            StreamReader reader = new StreamReader(FileBalance);
-            decimal Balance = Convert.ToDecimal(reader.ReadLine());
-            reader.Close();
-            return Balance;
+            if (File.Exists(FileBalance))
+            {
+                StreamReader reader = new StreamReader(FileBalance);
+                decimal Balance = Convert.ToDecimal(reader.ReadLine());
+                reader.Close();
+                return Balance;
+            }
+            return 0;
         }
 
         void VaultMBank()

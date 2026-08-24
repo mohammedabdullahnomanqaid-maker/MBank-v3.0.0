@@ -61,20 +61,23 @@ namespace Project_Bank_C
             string line;
 
 
-
-
-            StreamReader reader = new StreamReader(FileName);
-            while ((line = reader.ReadLine()) != null)
+            if (File.Exists(FileName))
             {
-                data = line.Split('#');
-                FillItem(data);
-                cbBaseCurrency.Items.Add(data[1]);
-                cbFrom.Items.Add(data[1]);
-                cbTo.Items.Add(data[1]);
+                StreamReader reader = new StreamReader(FileName);
+                while ((line = reader.ReadLine()) != null)
+                {
+                    data = line.Split('#');
+                    FillItem(data);
+                    cbBaseCurrency.Items.Add(data[1]);
+                    cbFrom.Items.Add(data[1]);
+                    cbTo.Items.Add(data[1]);
 
+                }
+                reader.Close();
+                ImageCounter = 0;
             }
-            reader.Close();
-            ImageCounter = 0;
+
+       
 
         }
 
