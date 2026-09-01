@@ -10,7 +10,7 @@ A simple banking project developed during the early stage of my programming jour
 
 <img src="Screenshots/Dashboard.png" alt="MBank Dashboard" width="850">
 
-<br>
+<br><br>
 
 [📖 About](#-about) ·
 [📅 Timeline](#-project-timeline) ·
@@ -48,31 +48,25 @@ The application uses **file-based storage** and focuses on banking logic, financ
 
 ## ✨ Features
 
-The current project includes the following functionality:
+The current project includes:
 
-### 💱 Currency Calculation
-
-Currency conversion functionality supporting **56 countries**.
-
-### 🏦 Vault Logic
-
-A centralized treasury system connected to deposit and withdrawal transactions.
-
-### 🛡️ Security
-
-Role-based access control for managing different user permissions.
-
-### 🎨 Modern UI
-
-A graphical desktop interface designed using Windows Forms.
-
-### 💾 File-Based Storage
-
-Data is stored and managed through the local file system instead of an external database.
+- 💱 Currency Calculation
+- 🏦 Vault Logic
+- 🛡️ Role-Based Access
+- 🎨 Windows Forms Interface
+- 💾 File-Based Storage
 
 ---
 
- ## 🖼️ Screenshots
+## 🖼️ Screenshots
+
+### 📊 Dashboard
+
+The main application interface.
+
+<img src="Screenshots/Dashboard.png" alt="MBank Dashboard" width="850">
+
+<br>
 
 <details>
 <summary>🔐 Login</summary>
@@ -82,8 +76,6 @@ Data is stored and managed through the local file system instead of an external 
 <img src="Screenshots/Login.png" alt="MBank Login" width="700">
 
 </details>
-
-
 
 <details>
 <summary>👥 Manage People</summary>
@@ -112,6 +104,8 @@ Data is stored and managed through the local file system instead of an external 
 
 </details>
 
+> 💡 The Dashboard is displayed directly, while the other screenshots are placed inside expandable sections to keep the README clean.
+
 ---
 
 ## 🛠️ Technologies
@@ -121,6 +115,119 @@ Data is stored and managed through the local file system instead of an external 
 | **C#** | Core programming language |
 | **.NET Framework 4.7.2** | Application framework |
 | **Windows Forms** | Desktop graphical interface |
+| **File-Based Storage** | Data persistence |
+| **Visual Studio** | Development environment |
+
+---
+
+## 📂 Structure
+
+```text
+MBank-v3.0.0/
+│
+├── Properties/
+├── Resources/
+├── Screenshots/
+│   ├── Login.png
+│   ├── Dashboard.png
+│   ├── Manage-People.png
+│   ├── CurrencyExchange.png
+│   └── Vault.png
+│
+├── App.config
+├── Program.cs
+│
+├── Form1.cs
+├── Form1.Designer.cs
+├── Form1.resx
+│
+├── FrmBankSystem.cs
+├── FrmBankSystem.Designer.cs
+├── FrmBankSystem.resx
+│
+├── FrmInterFace.cs
+├── FrmInterFace.Designer.cs
+├── FrmInterFace.resx
+│
+├── FrmManageUser.cs
+├── FrmManageUser.Designer.cs
+├── FrmManageUser.resx
+│
+├── FrmTransaction.cs
+├── FrmTransaction.Designer.cs
+├── FrmTransaction.resx
+│
+├── frmLogin.cs
+├── frmLogin.Designer.cs
+├── frmLogin.resx
+│
+├── frmCurrencyExchange.cs
+├── frmCurrencyExchange.Designer.cs
+├── frmCurrencyExchange.resx
+│
+├── FrmAddCurrency.cs
+├── FrmAddCurrency.Designer.cs
+├── FrmAddCurrency.resx
+│
+├── ClsAccountBalance.cs
+├── Class1.cs
+│
+├── Project_Bank_C.csproj
+├── Project_Bank_C.csproj.user
+├── Project_Bank_C.sln
+│
+├── IcoBank.ico
+├── MBankico.ico
+└── .gitignore
+```
+
+---
+
+## 🚀 Getting Started
+
+### Requirements
+
+- Windows
+- Visual Studio
+- C# / .NET development tools
+
+### Run
+
+1. Open `Project_Bank_C.sln`
+2. Build the project
+3. Run the application
+
+---
+
+## 🎓 Learning Journey
+
+**v3.0.0** represents a major step in my programming journey.
+
+After building the previous MBank versions using **C++ console applications**, this version was an opportunity to move into **C# and Windows Forms**.
+
+It helped me continue learning through a more visual and structured application.
+
+**C# · .NET · Windows Forms · OOP · File Handling · Financial Logic · User Access**
+
+> 🌱 From a simple console project to a graphical banking application.
+
+---
+
+## 👨‍💻 Author
+
+<div align="center">
+
+### Mohammed Abdullah Noman Qaid Mohammed
+
+Computer Science Student — Taiz University
+
+<br>
+
+🏦 **MBank v3.0.0**
+
+*C# was the next step.*
+
+</div>| **Windows Forms** | Desktop graphical interface |
 | **File-Based Storage** | Data persistence |
 | **Visual Studio** | Development environment |
 
