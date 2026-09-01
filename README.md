@@ -18,7 +18,8 @@ A simple banking project developed during the early stage of my programming jour
 [🖼️ Screenshots](#️-screenshots) ·
 [🛠️ Technologies](#️-technologies) ·
 [📂 Structure](#-structure) ·
-[🚀 Run](#-getting-started)
+[🚀 Run](#-getting-started) ·
+[🎓 Learning](#-learning-journey)
 
 </div>
 
@@ -30,7 +31,7 @@ A simple banking project developed during the early stage of my programming jour
 
 This version marks the transition from the previous **C++ console-based projects** to **C# and Windows Forms**, introducing a graphical desktop interface.
 
-The application uses **file-based storage** and focuses on banking logic, financial transactions, currency exchange, user access, and treasury management.
+The application uses file-based storage and provides banking-related functionality through a graphical interface.
 
 ---
 
@@ -48,25 +49,17 @@ The application uses **file-based storage** and focuses on banking logic, financ
 
 ## ✨ Features
 
-The current project includes:
+The project includes:
 
 - 💱 Currency Calculation
-- 🏦 Vault Logic
+- 🏦 Vault
 - 🛡️ Role-Based Access
-- 🎨 Windows Forms Interface
 - 💾 File-Based Storage
+- 🖥️ Windows Forms Interface
 
 ---
 
 ## 🖼️ Screenshots
-
-### 📊 Dashboard
-
-The main application interface.
-
-<img src="Screenshots/Dashboard.png" alt="MBank Dashboard" width="850">
-
-<br>
 
 <details>
 <summary>🔐 Login</summary>
@@ -104,18 +97,16 @@ The main application interface.
 
 </details>
 
-> 💡 The Dashboard is displayed directly, while the other screenshots are placed inside expandable sections to keep the README clean.
-
 ---
 
 ## 🛠️ Technologies
 
 | Technology | Usage |
 |:---|:---|
-| **C#** | Core programming language |
+| **C#** | Programming language |
 | **.NET Framework 4.7.2** | Application framework |
-| **Windows Forms** | Desktop graphical interface |
-| **File-Based Storage** | Data persistence |
+| **Windows Forms** | Graphical desktop interface |
+| **File-Based Storage** | Data storage |
 | **Visual Studio** | Development environment |
 
 ---
@@ -210,125 +201,6 @@ It helped me continue learning through a more visual and structured application.
 **C# · .NET · Windows Forms · OOP · File Handling · Financial Logic · User Access**
 
 > 🌱 From a simple console project to a graphical banking application.
-
----
-
-## 👨‍💻 Author
-
-<div align="center">
-
-### Mohammed Abdullah Noman Qaid Mohammed
-
-Computer Science Student — Taiz University
-
-<br>
-
-🏦 **MBank v3.0.0**
-
-*C# was the next step.*
-
-</div>| **Windows Forms** | Desktop graphical interface |
-| **File-Based Storage** | Data persistence |
-| **Visual Studio** | Development environment |
-
----
-
-## 📂 Structure
-
-```text
-MBank-v3.0.0/
-│
-├── Properties/
-├── Resources/
-├── Screenshots/
-│   ├── Login.png
-│   ├── Dashboard.png
-│   ├── Manage-People.png
-│   ├── CurrencyExchange.png
-│   └── Vault.png
-│
-├── App.config
-├── Program.cs
-│
-├── Form1.cs
-├── Form1.Designer.cs
-├── Form1.resx
-│
-├── FrmBankSystem.cs
-├── FrmBankSystem.Designer.cs
-├── FrmBankSystem.resx
-│
-├── FrmInterFace.cs
-├── FrmInterFace.Designer.cs
-├── FrmInterFace.resx
-│
-├── FrmManageUser.cs
-├── FrmManageUser.Designer.cs
-├── FrmManageUser.resx
-│
-├── FrmTransaction.cs
-├── FrmTransaction.Designer.cs
-├── FrmTransaction.resx
-│
-├── frmLogin.cs
-├── frmLogin.Designer.cs
-├── frmLogin.resx
-│
-├── frmCurrencyExchange.cs
-├── frmCurrencyExchange.Designer.cs
-├── frmCurrencyExchange.resx
-│
-├── FrmAddCurrency.cs
-├── FrmAddCurrency.Designer.cs
-├── FrmAddCurrency.resx
-│
-├── ClsAccountBalance.cs
-├── Class1.cs
-│
-├── Project_Bank_C.csproj
-├── Project_Bank_C.csproj.user
-├── Project_Bank_C.sln
-│
-├── IcoBank.ico
-├── MBankico.ico
-└── .gitignore
-```
-
----
-
-## 🚀 Getting Started
-
-### Requirements
-
-- Windows
-- Visual Studio
-- C# / .NET development tools
-
-### Run
-
-1. Open `Project_Bank_C.sln`
-2. Build the project
-3. Run the application
-
----
-
-## 🎓 Learning Journey
-
-**v3.0.0** represents a major step in my programming journey.
-
-After building the previous MBank versions using **C++ console applications**, this version was an opportunity to move into **C# and Windows Forms**.
-
-It allowed me to continue learning through a more visual and structured application while working with:
-
-**C# · .NET · Windows Forms · File Handling · OOP · Financial Logic · User Access**
-
-> 🌱 From a simple console project to a graphical banking application.
-
----
-
-## 📜 License
-
-This project is open-source and available under the **MIT License**.
 
 ---
 
