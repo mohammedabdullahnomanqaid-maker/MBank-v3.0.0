@@ -70,37 +70,52 @@ Data is stored and managed through the local file system instead of an external 
 
 ---
 
-## 🖼️ Screenshots
+ ## 🖼️ Screenshots
 
-The project includes several screenshots showing the main parts of the application.
+<details>
+<summary>🔐 Login</summary>
 
-### 🔐 Login
+<br>
 
-![MBank Login](Screenshots/Login.png)
+<img src="Screenshots/Login.png" alt="MBank Login" width="700">
 
----
+</details>
 
-### 📊 Dashboard
+<details>
+<summary>📊 Dashboard</summary>
 
-![MBank Dashboard](Screenshots/Dashboard.png)
+<br>
 
----
+<img src="Screenshots/Dashboard.png" alt="MBank Dashboard" width="700">
 
-### 👥 Manage People
+</details>
 
-![Manage People](Screenshots/Manage-People.png)
+<details>
+<summary>👥 Manage People</summary>
 
----
+<br>
 
-### 💱 Currency Exchange
+<img src="Screenshots/Manage-People.png" alt="Manage People" width="700">
 
-![Currency Exchange](Screenshots/CurrencyExchange.png)
+</details>
 
----
+<details>
+<summary>💱 Currency Exchange</summary>
 
-### 🏦 Vault
+<br>
 
-![Vault](Screenshots/Vault.png)
+<img src="Screenshots/CurrencyExchange.png" alt="Currency Exchange" width="700">
+
+</details>
+
+<details>
+<summary>🏦 Vault</summary>
+
+<br>
+
+<img src="Screenshots/Vault.png" alt="Vault" width="700">
+
+</details>
 
 ---
 
