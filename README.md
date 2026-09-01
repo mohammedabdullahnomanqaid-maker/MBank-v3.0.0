@@ -4,9 +4,11 @@
 
 ### A C# .NET Banking System
 
-**From C++ Console Applications to a Windows Forms Application**
+A simple banking project developed during the early stage of my programming journey.
 
-A major step in my programming journey, moving MBank into a new language and a graphical desktop interface.
+<br>
+
+<img src="Screenshots/Dashboard.png" alt="MBank Dashboard" width="850">
 
 <br>
 
@@ -81,14 +83,7 @@ Data is stored and managed through the local file system instead of an external 
 
 </details>
 
-<details>
-<summary>📊 Dashboard</summary>
 
-<br>
-
-<img src="Screenshots/Dashboard.png" alt="MBank Dashboard" width="700">
-
-</details>
 
 <details>
 <summary>👥 Manage People</summary>
