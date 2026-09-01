@@ -1,75 +1,232 @@
-# 🚀 MBank v3.0.0
-«A file-based C# .NET banking system featuring complex financial logic, centralized treasury management, and a modern UI, built entirely over a 10-day period.»
----
-## 📑 Table of Contents
-- [Overview](#overview)
-- [Key Features](#key-features)
-- [Architecture & Design](#architecture--design)
-- [Technologies](#technologies)
-- [License](#license)
-- [Author](#author)
----
-## <a id="overview"></a>Overview
-MBank (Beta Version) is a comprehensive, standalone file-based banking simulation application developed to translate core programming and logical foundations into a working software solution. Built over an intensive 10-day development cycle, the project serves as a foundational step in practical software engineering—focusing on manual data handling, business logic implementation, and financial transaction processing without relying on external database management systems.
----
+<div align="center">
 
-## 📸 Screenshots
+# 🏦 MBank — v3.0.0
 
-<details>
-<summary><strong>View Screenshots</strong></summary>
+### A C# .NET Banking System
+
+**From C++ Console Applications to a Windows Forms Application**
+
+A major step in my programming journey, moving MBank into a new language and a graphical desktop interface.
 
 <br>
 
+[📖 About](#-about) ·
+[📅 Timeline](#-project-timeline) ·
+[✨ Features](#-features) ·
+[🖼️ Screenshots](#️-screenshots) ·
+[🛠️ Technologies](#️-technologies) ·
+[📂 Structure](#-structure) ·
+[🚀 Run](#-getting-started)
+
+</div>
+
+---
+
+## 📖 About
+
+**MBank v3.0.0** is a C# .NET banking application developed as the next stage of the MBank project.
+
+This version marks the transition from the previous **C++ console-based projects** to **C# and Windows Forms**, introducing a graphical desktop interface.
+
+The application uses **file-based storage** and focuses on banking logic, financial transactions, currency exchange, user access, and treasury management.
+
+---
+
+## 📅 Project Timeline
+
+| Version | Started | Completed | Language |
+|:---:|:---:|:---:|:---:|
+| **v3.0.0** | **2026/03/18** | **2026/03/28** | **C#** |
+| [v2.0.0](https://github.com/mohammedabdullahnomanqaid-maker/MBank-v2.0.0) | 2026/02/05 | 2026/02/20 | C++ |
+| [v1.2.0](https://github.com/mohammedabdullahnomanqaid-maker/MBank-v1.2.0) | 2026/01/05 | 2026/01/10 | C++ |
+| [v1.1.0](https://github.com/mohammedabdullahnomanqaid-maker/MBank-v1.1.0) | 2025/12/05 | 2025/12/10 | C++ |
+| [v1.0.0](https://github.com/mohammedabdullahnomanqaid-maker/MBank-v1.0.0) | 2025/12/01 | 2025/12/04 | C++ |
+
+---
+
+## ✨ Features
+
+The current project includes the following functionality:
+
+### 💱 Currency Calculation
+
+Currency conversion functionality supporting **56 countries**.
+
+### 🏦 Vault Logic
+
+A centralized treasury system connected to deposit and withdrawal transactions.
+
+### 🛡️ Security
+
+Role-based access control for managing different user permissions.
+
+### 🎨 Modern UI
+
+A graphical desktop interface designed using Windows Forms.
+
+### 💾 File-Based Storage
+
+Data is stored and managed through the local file system instead of an external database.
+
+---
+
+## 🖼️ Screenshots
+
+The project includes several screenshots showing the main parts of the application.
+
 ### 🔐 Login
 
-<img src="Screenshots/Login.png" alt="Login" width="800">
+![MBank Login](Screenshots/Login.png)
+
+---
 
 ### 📊 Dashboard
 
-<img src="Screenshots/Dashboard.png" alt="Dashboard" width="800">
+![MBank Dashboard](Screenshots/Dashboard.png)
+
+---
 
 ### 👥 Manage People
 
-<img src="Screenshots/Manage-People.png" alt="Manage People" width="800">
+![Manage People](Screenshots/Manage-People.png)
+
+---
 
 ### 💱 Currency Exchange
 
-<img src="Screenshots/CurrencyExchange.png" alt="Currency Exchange" width="800">
+![Currency Exchange](Screenshots/CurrencyExchange.png)
+
+---
 
 ### 🏦 Vault
 
-<img src="Screenshots/Vault.png" alt="Vault" width="800">
-
-</details>
+![Vault](Screenshots/Vault.png)
 
 ---
-## <a id="key-features"></a>Key Features
-### 💱 Currency Calc
-- **International Conversion:** Smart calculation engine providing real-time currency conversion capabilities supporting 56 countries with precision.
-### 🏛️ Vault Logic
-- **Centralized Treasury:** Direct logical linking ensuring that every deposit or withdrawal transaction instantly updates and reflects on the central bank vault.
-### 🛡️ Security
-- **Role-Based Access Control:** Advanced permission system allowing granular task assignments and management for different users to maintain security and operational integrity.
-### 🎨 Modern UI
-- **Sleek Interface:** Clean, contemporary visual layout engineered to maximize user experience and simplify interaction.
----
-## <a id="architecture--design"></a>Architecture & Design
-- **File-Based Storage Architecture:** Complete manual management and persistence of data utilizing native file systems, heavily sharpening skills in data processing and serialization.
-- **Procedural & Object Logic:** Structured software design focusing on robust financial workflows and treasury synchronization rules.
----
-## <a id="technologies"></a>Technologies
 
-| Technology | Purpose |
-| :--- | :--- |
+## 🛠️ Technologies
+
+| Technology | Usage |
+|:---|:---|
 | **C#** | Core programming language |
-| **.NET** | Application framework environment |
-| **File-Based Storage** | Data persistence and management mechanism |
-| **Modern UI** | Desktop user interface design |
+| **.NET Framework 4.7.2** | Application framework |
+| **Windows Forms** | Desktop graphical interface |
+| **File-Based Storage** | Data persistence |
+| **Visual Studio** | Development environment |
 
 ---
-## <a id="license"></a>License
-This project is open-source and available under the **MIT License**. You are free to use, modify, and distribute it in any way you choose, provided that proper copyright and attribution to the original author are maintained.
+
+## 📂 Structure
+
+```text
+MBank-v3.0.0/
+│
+├── Properties/
+├── Resources/
+├── Screenshots/
+│   ├── Login.png
+│   ├── Dashboard.png
+│   ├── Manage-People.png
+│   ├── CurrencyExchange.png
+│   └── Vault.png
+│
+├── App.config
+├── Program.cs
+│
+├── Form1.cs
+├── Form1.Designer.cs
+├── Form1.resx
+│
+├── FrmBankSystem.cs
+├── FrmBankSystem.Designer.cs
+├── FrmBankSystem.resx
+│
+├── FrmInterFace.cs
+├── FrmInterFace.Designer.cs
+├── FrmInterFace.resx
+│
+├── FrmManageUser.cs
+├── FrmManageUser.Designer.cs
+├── FrmManageUser.resx
+│
+├── FrmTransaction.cs
+├── FrmTransaction.Designer.cs
+├── FrmTransaction.resx
+│
+├── frmLogin.cs
+├── frmLogin.Designer.cs
+├── frmLogin.resx
+│
+├── frmCurrencyExchange.cs
+├── frmCurrencyExchange.Designer.cs
+├── frmCurrencyExchange.resx
+│
+├── FrmAddCurrency.cs
+├── FrmAddCurrency.Designer.cs
+├── FrmAddCurrency.resx
+│
+├── ClsAccountBalance.cs
+├── Class1.cs
+│
+├── Project_Bank_C.csproj
+├── Project_Bank_C.csproj.user
+├── Project_Bank_C.sln
+│
+├── IcoBank.ico
+├── MBankico.ico
+└── .gitignore
+```
+
 ---
-## <a id="author"></a>Author
-- **Developer:** Mohammed Abdullah Noman Qaid Mohammed 
-- **Special Acknowledgment:** Developed under the roadmap and guidance of Dr. Mohammed Abu-Hadhoud (Programming Advices).
+
+## 🚀 Getting Started
+
+### Requirements
+
+- Windows
+- Visual Studio
+- C# / .NET development tools
+
+### Run
+
+1. Open `Project_Bank_C.sln`
+2. Build the project
+3. Run the application
+
+---
+
+## 🎓 Learning Journey
+
+**v3.0.0** represents a major step in my programming journey.
+
+After building the previous MBank versions using **C++ console applications**, this version was an opportunity to move into **C# and Windows Forms**.
+
+It allowed me to continue learning through a more visual and structured application while working with:
+
+**C# · .NET · Windows Forms · File Handling · OOP · Financial Logic · User Access**
+
+> 🌱 From a simple console project to a graphical banking application.
+
+---
+
+## 📜 License
+
+This project is open-source and available under the **MIT License**.
+
+---
+
+## 👨‍💻 Author
+
+<div align="center">
+
+### Mohammed Abdullah Noman Qaid Mohammed
+
+Computer Science Student — Taiz University
+
+<br>
+
+🏦 **MBank v3.0.0**
+
+*C# was the next step.*
+
+</div>
